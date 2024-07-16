@@ -14,7 +14,7 @@ itsdangerous==0.24
 Jinja2==2.10
 lxml==4.3.2
 Markdown==3.0.1
-MarkupSafe==1.0
+MarkupSafe==1.1.1
 numpy==1.15.4
 pelican==4.0.1
 Pygments==2.3.1
