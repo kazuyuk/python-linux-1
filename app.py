@@ -1,9 +1,9 @@
 from subprocess import STDOUT, check_call
 import os
-check_call(['apt-get', 'update'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
+#check_call(['apt-get', 'update'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
 check_call(['apt-get', 'install', '-y', 'libgl1'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
 check_call(['apt-get', 'install', '-y', 'libglib2.0-0'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
-check_call(['apt-get', 'update'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
+#check_call(['apt-get', 'update'], stdout=open(os.devnull,'wb'), stderr=STDOUT)
 
 import xgboost as xgb
 from flask import Flask
