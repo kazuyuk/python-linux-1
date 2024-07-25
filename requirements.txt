@@ -1,2 +1,3 @@
+applicationinsights
 Flask
 xgboost
